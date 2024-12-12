@@ -1,0 +1,197 @@
+is_global = true
+build_property.TargetFramework = net9.0
+build_property.TargetFramework = net9.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = BancoMundial
+build_property.RootNamespace = BancoMundial
+build_property.ProjectDir = C:\Users\rlcez\OneDrive\0-ADS-graduacao\6-FW_I_C#\BancoMundial\BancoMundial\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 9.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\rlcez\OneDrive\0-ADS-graduacao\6-FW_I_C#\BancoMundial\BancoMundial
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 9.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/rlcez/OneDrive/0-ADS-graduacao/6-FW_I_C\#/BancoMundial/BancoMundial/Views/Clientes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rlcez/OneDrive/0-ADS-graduacao/6-FW_I_C\#/BancoMundial/BancoMundial/Views/Clientes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rlcez/OneDrive/0-ADS-graduacao/6-FW_I_C\#/BancoMundial/BancoMundial/Views/Clientes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rlcez/OneDrive/0-ADS-graduacao/6-FW_I_C\#/BancoMundial/BancoMundial/Views/Clientes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rlcez/OneDrive/0-ADS-graduacao/6-FW_I_C\#/BancoMundial/BancoMundial/Views/Clientes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rlcez/OneDrive/0-ADS-graduacao/6-FW_I_C\#/BancoMundial/BancoMundial/Views/ContaBancarias/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFCYW5jYXJpYXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rlcez/OneDrive/0-ADS-graduacao/6-FW_I_C\#/BancoMundial/BancoMundial/Views/ContaBancarias/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFCYW5jYXJpYXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rlcez/OneDrive/0-ADS-graduacao/6-FW_I_C\#/BancoMundial/BancoMundial/Views/ContaBancarias/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFCYW5jYXJpYXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rlcez/OneDrive/0-ADS-graduacao/6-FW_I_C\#/BancoMundial/BancoMundial/Views/ContaBancarias/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFCYW5jYXJpYXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rlcez/OneDrive/0-ADS-graduacao/6-FW_I_C\#/BancoMundial/BancoMundial/Views/ContaBancarias/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFCYW5jYXJpYXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rlcez/OneDrive/0-ADS-graduacao/6-FW_I_C\#/BancoMundial/BancoMundial/Views/ContaCorrentes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFDb3JyZW50ZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rlcez/OneDrive/0-ADS-graduacao/6-FW_I_C\#/BancoMundial/BancoMundial/Views/ContaCorrentes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFDb3JyZW50ZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rlcez/OneDrive/0-ADS-graduacao/6-FW_I_C\#/BancoMundial/BancoMundial/Views/ContaCorrentes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFDb3JyZW50ZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rlcez/OneDrive/0-ADS-graduacao/6-FW_I_C\#/BancoMundial/BancoMundial/Views/ContaCorrentes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFDb3JyZW50ZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rlcez/OneDrive/0-ADS-graduacao/6-FW_I_C\#/BancoMundial/BancoMundial/Views/ContaCorrentes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFDb3JyZW50ZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rlcez/OneDrive/0-ADS-graduacao/6-FW_I_C\#/BancoMundial/BancoMundial/Views/ContaPoupancas/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFQb3VwYW5jYXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rlcez/OneDrive/0-ADS-graduacao/6-FW_I_C\#/BancoMundial/BancoMundial/Views/ContaPoupancas/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFQb3VwYW5jYXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rlcez/OneDrive/0-ADS-graduacao/6-FW_I_C\#/BancoMundial/BancoMundial/Views/ContaPoupancas/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFQb3VwYW5jYXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rlcez/OneDrive/0-ADS-graduacao/6-FW_I_C\#/BancoMundial/BancoMundial/Views/ContaPoupancas/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFQb3VwYW5jYXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rlcez/OneDrive/0-ADS-graduacao/6-FW_I_C\#/BancoMundial/BancoMundial/Views/ContaPoupancas/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFQb3VwYW5jYXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rlcez/OneDrive/0-ADS-graduacao/6-FW_I_C\#/BancoMundial/BancoMundial/Views/ContaSalarios/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFTYWxhcmlvc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rlcez/OneDrive/0-ADS-graduacao/6-FW_I_C\#/BancoMundial/BancoMundial/Views/ContaSalarios/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFTYWxhcmlvc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rlcez/OneDrive/0-ADS-graduacao/6-FW_I_C\#/BancoMundial/BancoMundial/Views/ContaSalarios/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFTYWxhcmlvc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rlcez/OneDrive/0-ADS-graduacao/6-FW_I_C\#/BancoMundial/BancoMundial/Views/ContaSalarios/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFTYWxhcmlvc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rlcez/OneDrive/0-ADS-graduacao/6-FW_I_C\#/BancoMundial/BancoMundial/Views/ContaSalarios/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFTYWxhcmlvc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rlcez/OneDrive/0-ADS-graduacao/6-FW_I_C\#/BancoMundial/BancoMundial/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rlcez/OneDrive/0-ADS-graduacao/6-FW_I_C\#/BancoMundial/BancoMundial/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rlcez/OneDrive/0-ADS-graduacao/6-FW_I_C\#/BancoMundial/BancoMundial/Views/PessoaFisicas/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVzc29hRmlzaWNhc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rlcez/OneDrive/0-ADS-graduacao/6-FW_I_C\#/BancoMundial/BancoMundial/Views/PessoaFisicas/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVzc29hRmlzaWNhc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rlcez/OneDrive/0-ADS-graduacao/6-FW_I_C\#/BancoMundial/BancoMundial/Views/PessoaFisicas/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVzc29hRmlzaWNhc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rlcez/OneDrive/0-ADS-graduacao/6-FW_I_C\#/BancoMundial/BancoMundial/Views/PessoaFisicas/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVzc29hRmlzaWNhc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rlcez/OneDrive/0-ADS-graduacao/6-FW_I_C\#/BancoMundial/BancoMundial/Views/PessoaFisicas/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVzc29hRmlzaWNhc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rlcez/OneDrive/0-ADS-graduacao/6-FW_I_C\#/BancoMundial/BancoMundial/Views/PessoaJuridicas/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVzc29hSnVyaWRpY2FzXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rlcez/OneDrive/0-ADS-graduacao/6-FW_I_C\#/BancoMundial/BancoMundial/Views/PessoaJuridicas/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVzc29hSnVyaWRpY2FzXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rlcez/OneDrive/0-ADS-graduacao/6-FW_I_C\#/BancoMundial/BancoMundial/Views/PessoaJuridicas/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVzc29hSnVyaWRpY2FzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rlcez/OneDrive/0-ADS-graduacao/6-FW_I_C\#/BancoMundial/BancoMundial/Views/PessoaJuridicas/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVzc29hSnVyaWRpY2FzXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rlcez/OneDrive/0-ADS-graduacao/6-FW_I_C\#/BancoMundial/BancoMundial/Views/PessoaJuridicas/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVzc29hSnVyaWRpY2FzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rlcez/OneDrive/0-ADS-graduacao/6-FW_I_C\#/BancoMundial/BancoMundial/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rlcez/OneDrive/0-ADS-graduacao/6-FW_I_C\#/BancoMundial/BancoMundial/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rlcez/OneDrive/0-ADS-graduacao/6-FW_I_C\#/BancoMundial/BancoMundial/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rlcez/OneDrive/0-ADS-graduacao/6-FW_I_C\#/BancoMundial/BancoMundial/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/rlcez/OneDrive/0-ADS-graduacao/6-FW_I_C\#/BancoMundial/BancoMundial/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-5gajr183kb
