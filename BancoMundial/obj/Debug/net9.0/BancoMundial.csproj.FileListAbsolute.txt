@@ -244,6 +244,7 @@ C:\Users\rlcez\OneDrive\0-ADS-graduacao\6-FW_I_C#\BancoMundial\BancoMundial\obj\
 C:\Users\rlcez\OneDrive\0-ADS-graduacao\6-FW_I_C#\BancoMundial\BancoMundial\obj\Debug\net9.0\BancoMundial.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\rlcez\OneDrive\0-ADS-graduacao\6-FW_I_C#\BancoMundial\BancoMundial\obj\Debug\net9.0\BancoMundial.RazorAssemblyInfo.cache
 C:\Users\rlcez\OneDrive\0-ADS-graduacao\6-FW_I_C#\BancoMundial\BancoMundial\obj\Debug\net9.0\BancoMundial.RazorAssemblyInfo.cs
+C:\Users\rlcez\OneDrive\0-ADS-graduacao\6-FW_I_C#\BancoMundial\BancoMundial\obj\Debug\net9.0\BancoMundial.sourcelink.json
 C:\Users\rlcez\OneDrive\0-ADS-graduacao\6-FW_I_C#\BancoMundial\BancoMundial\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\rlcez\OneDrive\0-ADS-graduacao\6-FW_I_C#\BancoMundial\BancoMundial\obj\Debug\net9.0\scopedcss\bundle\BancoMundial.styles.css
 C:\Users\rlcez\OneDrive\0-ADS-graduacao\6-FW_I_C#\BancoMundial\BancoMundial\obj\Debug\net9.0\scopedcss\projectbundle\BancoMundial.bundle.scp.css
@@ -320,10 +321,10 @@ C:\Users\rlcez\OneDrive\0-ADS-graduacao\6-FW_I_C#\BancoMundial\BancoMundial\obj\
 C:\Users\rlcez\OneDrive\0-ADS-graduacao\6-FW_I_C#\BancoMundial\BancoMundial\obj\Debug\net9.0\staticwebassets\msbuild.buildMultiTargeting.BancoMundial.props
 C:\Users\rlcez\OneDrive\0-ADS-graduacao\6-FW_I_C#\BancoMundial\BancoMundial\obj\Debug\net9.0\staticwebassets\msbuild.buildTransitive.BancoMundial.props
 C:\Users\rlcez\OneDrive\0-ADS-graduacao\6-FW_I_C#\BancoMundial\BancoMundial\obj\Debug\net9.0\staticwebassets.pack.json
+C:\Users\rlcez\OneDrive\0-ADS-graduacao\6-FW_I_C#\BancoMundial\BancoMundial\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
 C:\Users\rlcez\OneDrive\0-ADS-graduacao\6-FW_I_C#\BancoMundial\BancoMundial\obj\Debug\net9.0\BancoMun.27883B3A.Up2Date
 C:\Users\rlcez\OneDrive\0-ADS-graduacao\6-FW_I_C#\BancoMundial\BancoMundial\obj\Debug\net9.0\BancoMundial.dll
 C:\Users\rlcez\OneDrive\0-ADS-graduacao\6-FW_I_C#\BancoMundial\BancoMundial\obj\Debug\net9.0\refint\BancoMundial.dll
 C:\Users\rlcez\OneDrive\0-ADS-graduacao\6-FW_I_C#\BancoMundial\BancoMundial\obj\Debug\net9.0\BancoMundial.pdb
 C:\Users\rlcez\OneDrive\0-ADS-graduacao\6-FW_I_C#\BancoMundial\BancoMundial\obj\Debug\net9.0\BancoMundial.genruntimeconfig.cache
 C:\Users\rlcez\OneDrive\0-ADS-graduacao\6-FW_I_C#\BancoMundial\BancoMundial\obj\Debug\net9.0\ref\BancoMundial.dll
-C:\Users\rlcez\OneDrive\0-ADS-graduacao\6-FW_I_C#\BancoMundial\BancoMundial\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt

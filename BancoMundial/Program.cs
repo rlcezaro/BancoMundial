@@ -6,7 +6,6 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 builder.Services.AddRazorPages();
-builder.Services.AddServerSideBlazor();
 builder.Services.AddDbContext<BancoMundialContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("BancoMundialContext")));
 
@@ -27,11 +26,9 @@ app.UseRouting();
 
 app.UseAuthorization();
 
+app.MapRazorPages();
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
-
-app.MapBlazorHub();
-app.MapFallbackToPage("/_Host");
 
 app.Run();
