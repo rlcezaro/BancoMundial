@@ -79,7 +79,7 @@ namespace BancoMundial.Controllers
         // POST: PessoaFisicas/Edit/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Nome,Sobrenome,RG,CPF,DataNascimento,Idade,FaixaEtaria,Renda,Endereco,Telefone,Email")] PessoaFisica pessoaFisica)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Nome,Sobrenome,RG,CPF,DataNascimento,Idade,FaixaEtaria,Renda,Endereco,Telefone,Email")] PessoaFisica pessoaFisica)
         {
             if (id != pessoaFisica.Id)
             {
