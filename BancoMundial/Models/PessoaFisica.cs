@@ -8,8 +8,8 @@
         public string CPF { get; set; }
         public DateTime DataNascimento { get; set; }
         public int Idade { get; private set; }
-        public string FaixaEtaria { get; private set; }
-        public decimal Renda { get; private set; }
+        public string FaixaEtaria { get; set; } // Removido o private set;
+        public decimal Renda { get; set; }
 
         public void AtualizarIdadeEFaixaEtaria()
         {

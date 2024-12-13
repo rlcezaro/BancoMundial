@@ -1,91 +1,102 @@
-# Visual Studio
-.vscode/
-.vs/
-*.vscode
-*.vs
-*.user
-*.suo
-*.userosscache
-*.sln.docstates
-
-# Build results
-[Dd]ebug/
-[Dd]ebugPublic/
-[Rr]elease/
-[Rr]eleases/
-x64/
-x86/
-[Aa][Rr][Mm]/
-[Aa][Rr][Mm]64/
-bld/
+# Ignore build output directories
 [Bb]in/
 [Oo]bj/
-[Ll]og/
-[Ll]ogs/
 
-# NuGet
-*.nupkg
-*.snupkg
-.nuget/
-packages/
-# The packages folder can be ignored because of Package Restore
-**/[Pp]ackages/*/
-# except build/, which is used as an MSBuild target.
-!**/[Pp]ackages/build/
-# Uncomment if necessary however generally it will be regenerated when needed
-#!**/[Pp]ackages/repositories.config
-
-# Windows image file caches
-Thumbs.db
-ehthumbs.db
-
-# Folder config file
-Desktop.ini
-
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
-
-# VS Code directories
-.vscode/
-
-# ASP.NET Scaffolding
-ScaffoldingReadMe.txt
-
-# User-specific files
+# Ignore user-specific files
+*.user
 *.rsuser
 *.suo
-*.user
 *.userosscache
 *.sln.docstates
 
-# Mono Auto Generated Files
-mono_crash.*
+# Ignore build results
+*.dll
+*.exe
+*.pdb
+*.cache
+*.log
+*.vspscc
+*.vssscc
 
-# Windows image file caches
-Thumbs.db
-ehthumbs.db
+# Ignore JetBrains Rider project files
+.idea/
 
-# Folder config file
-Desktop.ini
+# Ignore Visual Studio Code workspace files
+.vscode/
+.vs/
 
-# Recycle Bin used on file shares
+# Ignore other files
+*.dbmdl
+*.jfm
+
+# Ignore NuGet packages
+*.nupkg
+*.snupkg
+
+# Ignore npm packages
+node_modules/
+
+# Ignore logs
+*.log
+logs/
+
+# Ignore temporary files
+*.tmp
+*.temp
+
+# Ignore publish output
+publish/
+wwwroot/
+
+# Ignore secrets
+secrets.json
+
+# Ignore Rider project files
+.idea/
+
+# Ignore Visual Studio Code workspace files
+.vscode/
+
+# Ignore local history
+.localhistory/
+
+# Ignore Recycle Bin used by Visual Studio
 $RECYCLE.BIN/
 
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
+# Ignore temporary files
+*.tmp
+*.temp
 
-# Windows shortcuts
-*.lnk
+# Ignore coverage files
+coverage/
 
-# JetBrains Rider
-.idea/
-*.sln.iml
+# Ignore dependency directories
+node_modules/
+jspm_packages/
 
-# Rider
-.idea/
-*.sln.iml
+# Ignore environment variable files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
 
-# End of https://www.toptal.com/developers/gitignore/api/visualstudio
+# Ignore .NET Core global tools
+.dotnet_tool/
+
+# Ignore database files
+*.mdf
+*.ldf
+
+# Ignore Azure Function local settings file
+local.settings.json
+
+# Ignore Mac files
+.DS_Store
+
+# Ignore Windows thumbnail cache files
+Thumbs.db
+
+# Ignore build output
+build/
+dist/

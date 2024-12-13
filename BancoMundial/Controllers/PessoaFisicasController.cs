@@ -1,9 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using BancoMundial.Data;
 using BancoMundial.Models;
@@ -50,14 +46,13 @@ namespace BancoMundial.Controllers
         }
 
         // POST: PessoaFisicas/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Nome,Sobrenome,RG,CPF,DataNascimento,Idade,FaixaEtaria,Renda,Id,Endereco,Telefone,Email")] PessoaFisica pessoaFisica)
+        public async Task<IActionResult> Create([Bind("Nome,Sobrenome,RG,CPF,DataNascimento,Idade,FaixaEtaria,Renda,Endereco,Telefone,Email")] PessoaFisica pessoaFisica)
         {
             if (ModelState.IsValid)
             {
+                pessoaFisica.AtualizarIdadeEFaixaEtaria();
                 _context.Add(pessoaFisica);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
@@ -82,11 +77,9 @@ namespace BancoMundial.Controllers
         }
 
         // POST: PessoaFisicas/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Nome,Sobrenome,RG,CPF,DataNascimento,Idade,FaixaEtaria,Renda,Id,Endereco,Telefone,Email")] PessoaFisica pessoaFisica)
+        public async Task<IActionResult> Edit(int id, [Bind("Nome,Sobrenome,RG,CPF,DataNascimento,Idade,FaixaEtaria,Renda,Endereco,Telefone,Email")] PessoaFisica pessoaFisica)
         {
             if (id != pessoaFisica.Id)
             {
@@ -97,6 +90,7 @@ namespace BancoMundial.Controllers
             {
                 try
                 {
+                    pessoaFisica.AtualizarIdadeEFaixaEtaria();
                     _context.Update(pessoaFisica);
                     await _context.SaveChangesAsync();
                 }
@@ -152,6 +146,15 @@ namespace BancoMundial.Controllers
         private bool PessoaFisicaExists(int id)
         {
             return _context.PessoasFisicas.Any(e => e.Id == id);
+        }
+
+        // Novo método para calcular idade e faixa etária
+        [HttpGet]
+        public IActionResult CalcularIdadeEFaixaEtaria(DateTime dataNascimento)
+        {
+            var idade = Auxiliar.CalcularIdade(dataNascimento);
+            var faixaEtaria = Auxiliar.DeterminarFaixaEtaria(idade);
+            return Json(new { idade, faixaEtaria });
         }
     }
 }
