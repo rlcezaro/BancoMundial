@@ -20,14 +20,15 @@
                         <li class="nav-item">
                             <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" asp-area="" asp-controller="Clientes" asp-action="Index">Clientes</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" asp-area="" asp-controller="PessoaFisicas" asp-action="Index">Pessoas Físicas</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" asp-area="" asp-controller="PessoaJuridicas" asp-action="Index">Pessoas Jurídicas</a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="clientesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Cadastro de Clientes
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="clientesDropdown">
+                                <li><a class="dropdown-item" asp-area="" asp-controller="Clientes" asp-action="Index">Clientes</a></li>
+                                <li><a class="dropdown-item" asp-area="" asp-controller="PessoaFisicas" asp-action="Index">Pessoas Físicas</a></li>
+                                <li><a class="dropdown-item" asp-area="" asp-controller="PessoaJuridicas" asp-action="Index">Pessoas Jurídicas</a></li>
+                            </ul>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">

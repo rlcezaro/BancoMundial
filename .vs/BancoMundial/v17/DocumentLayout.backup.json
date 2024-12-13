@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\rlcez\\OneDrive\\0-ADS-graduacao\\6-FW_I_C#\\BancoMundial\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F625D7A2-A1BB-40A2-8E85-AFFB00293A84}|BancoMundial\\BancoMundial.csproj|c:\\users\\rlcez\\onedrive\\0-ads-graduacao\\6-fw_i_c#\\bancomundial\\bancomundial\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F625D7A2-A1BB-40A2-8E85-AFFB00293A84}|BancoMundial\\BancoMundial.csproj|solutionrelative:bancomundial\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{F625D7A2-A1BB-40A2-8E85-AFFB00293A84}|BancoMundial\\BancoMundial.csproj|c:\\users\\rlcez\\onedrive\\0-ads-graduacao\\6-fw_i_c#\\bancomundial\\bancomundial\\views\\clientes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F625D7A2-A1BB-40A2-8E85-AFFB00293A84}|BancoMundial\\BancoMundial.csproj|solutionrelative:bancomundial\\views\\clientes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F625D7A2-A1BB-40A2-8E85-AFFB00293A84}|BancoMundial\\BancoMundial.csproj|c:\\users\\rlcez\\onedrive\\0-ads-graduacao\\6-fw_i_c#\\bancomundial\\bancomundial\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F625D7A2-A1BB-40A2-8E85-AFFB00293A84}|BancoMundial\\BancoMundial.csproj|solutionrelative:bancomundial\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{F625D7A2-A1BB-40A2-8E85-AFFB00293A84}|BancoMundial\\BancoMundial.csproj|c:\\users\\rlcez\\onedrive\\0-ads-graduacao\\6-fw_i_c#\\bancomundial\\bancomundial\\views\\clientes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F625D7A2-A1BB-40A2-8E85-AFFB00293A84}|BancoMundial\\BancoMundial.csproj|solutionrelative:bancomundial\\views\\clientes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,28 +30,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\rlcez\\OneDrive\\0-ADS-graduacao\\6-FW_I_C#\\BancoMundial\\BancoMundial\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "BancoMundial\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\rlcez\\OneDrive\\0-ADS-graduacao\\6-FW_I_C#\\BancoMundial\\BancoMundial\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "BancoMundial\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAACEAAAAAAAAAAAAIwEEAAAAHAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\rlcez\\OneDrive\\0-ADS-graduacao\\6-FW_I_C#\\BancoMundial\\BancoMundial\\Views\\Clientes\\Create.cshtml",
+              "RelativeDocumentMoniker": "BancoMundial\\Views\\Clientes\\Create.cshtml",
+              "ToolTip": "C:\\Users\\rlcez\\OneDrive\\0-ADS-graduacao\\6-FW_I_C#\\BancoMundial\\BancoMundial\\Views\\Clientes\\Create.cshtml",
+              "RelativeToolTip": "BancoMundial\\Views\\Clientes\\Create.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAIwCgAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-12T22:24:34.047Z",
+              "WhenOpened": "2024-12-13T03:06:49.77Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\rlcez\\OneDrive\\0-ADS-graduacao\\6-FW_I_C#\\BancoMundial\\BancoMundial\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "BancoMundial\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\rlcez\\OneDrive\\0-ADS-graduacao\\6-FW_I_C#\\BancoMundial\\BancoMundial\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "BancoMundial\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAGAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\rlcez\\OneDrive\\0-ADS-graduacao\\6-FW_I_C#\\BancoMundial\\BancoMundial\\Views\\Clientes\\Index.cshtml",
+              "RelativeDocumentMoniker": "BancoMundial\\Views\\Clientes\\Index.cshtml",
+              "ToolTip": "C:\\Users\\rlcez\\OneDrive\\0-ADS-graduacao\\6-FW_I_C#\\BancoMundial\\BancoMundial\\Views\\Clientes\\Index.cshtml",
+              "RelativeToolTip": "BancoMundial\\Views\\Clientes\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-12T22:22:45.375Z",
+              "WhenOpened": "2024-12-13T03:06:10.214Z",
               "EditorCaption": ""
             }
           ]

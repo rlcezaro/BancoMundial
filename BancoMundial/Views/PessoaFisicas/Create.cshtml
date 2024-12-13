@@ -39,12 +39,12 @@
             </div>
             <div class="form-group">
                 <label asp-for="Idade" class="control-label"></label>
-                <input asp-for="Idade" class="form-control" />
+                <input asp-for="Idade" class="form-control" readonly />
                 <span asp-validation-for="Idade" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="FaixaEtaria" class="control-label"></label>
-                <input asp-for="FaixaEtaria" class="form-control" />
+                <input asp-for="FaixaEtaria" class="form-control" readonly />
                 <span asp-validation-for="FaixaEtaria" class="text-danger"></span>
             </div>
             <div class="form-group">
@@ -79,5 +79,7 @@
 </div>
 
 @section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
 }

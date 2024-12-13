@@ -4,13 +4,13 @@
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\BancoMundial.07xmq627sq.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"07xmq627sq"},{"Name":"integrity","Value":"sha256-jGOQgjMlztkInDl8PWF1P1DM0x1cD9M5e7YEdb03mI4="},{"Name":"label","Value":"_content/BancoMundial/BancoMundial.bundle.scp.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1130"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022jGOQgjMlztkInDl8PWF1P1DM0x1cD9M5e7YEdb03mI4=\u0022"},{"Name":"Last-Modified","Value":"Thu, 12 Dec 2024 22:17:12 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1130"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022jGOQgjMlztkInDl8PWF1P1DM0x1cD9M5e7YEdb03mI4=\u0022"},{"Name":"Last-Modified","Value":"Fri, 13 Dec 2024 02:43:25 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/BancoMundial/BancoMundial.bundle.scp.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\BancoMundial.07xmq627sq.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-jGOQgjMlztkInDl8PWF1P1DM0x1cD9M5e7YEdb03mI4="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1130"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022jGOQgjMlztkInDl8PWF1P1DM0x1cD9M5e7YEdb03mI4=\u0022"},{"Name":"Last-Modified","Value":"Thu, 12 Dec 2024 22:17:12 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1130"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022jGOQgjMlztkInDl8PWF1P1DM0x1cD9M5e7YEdb03mI4=\u0022"},{"Name":"Last-Modified","Value":"Fri, 13 Dec 2024 02:43:25 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/BancoMundial/css/site.b9sayid5wm.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</AssetFile>
