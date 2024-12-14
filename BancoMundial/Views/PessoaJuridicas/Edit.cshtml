@@ -34,7 +34,7 @@
             </div>
             <div class="form-group">
                 <label asp-for="DataAbertura" class="control-label"></label>
-                <input asp-for="DataAbertura" class="form-control" />
+                <input asp-for="DataAbertura" class="form-control" id="dataAbertura" />
                 <span asp-validation-for="DataAbertura" class="text-danger"></span>
             </div>
             <div class="form-group">
@@ -44,10 +44,9 @@
             </div>
             <div class="form-group">
                 <label asp-for="Idade" class="control-label"></label>
-                <input asp-for="Idade" class="form-control" />
+                <input asp-for="Idade" class="form-control" readonly />
                 <span asp-validation-for="Idade" class="text-danger"></span>
             </div>
-            <input type="hidden" asp-for="Id" />
             <div class="form-group">
                 <label asp-for="Endereco" class="control-label"></label>
                 <input asp-for="Endereco" class="form-control" />
@@ -64,6 +63,22 @@
                 <span asp-validation-for="Email" class="text-danger"></span>
             </div>
             <div class="form-group">
+                <label for="Socios" class="control-label">Sócios</label>
+                <div>
+                    @foreach (var socio in ViewBag.Socios as List<BancoMundial.Models.PessoaFisica>)
+                    {
+                        <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="@socio.Id" name="sociosIds" id="socio_@socio.Id" @(Model.Socios.Any(s => s.Id == socio.Id) ? "checked" : "")>
+                            <label class="form-check-label" for="socio_@socio.Id">
+                                @socio.Nome @socio.Sobrenome
+                            </label>
+                        </div>
+                    }
+                </div>
+                <span asp-validation-for="Socios" class="text-danger"></span>
+            </div>
+            <input type="hidden" asp-for="Id" />
+            <div class="form-group">
                 <input type="submit" value="Save" class="btn btn-primary" />
             </div>
         </form>
@@ -75,5 +90,17 @@
 </div>
 
 @section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    <script>
+        document.getElementById("dataAbertura").addEventListener("change", function () {
+            var dataAbertura = this.value;
+            fetch(`/PessoaJuridicas/CalcularIdade?dataAbertura=${dataAbertura}`)
+                .then(response => response.json())
+                .then(data => {
+                    document.getElementById("Idade").value = data.idade;
+                });
+        });
+    </script>
 }

@@ -42,6 +42,9 @@
             <th>
                 @Html.DisplayNameFor(model => model.Email)
             </th>
+            <th>
+                Sócios
+            </th>
             <th></th>
         </tr>
     </thead>
@@ -78,6 +81,19 @@
                 </td>
                 <td>
                     @Html.DisplayFor(modelItem => item.Email)
+                </td>
+                <td>
+                    @if (item.Socios != null && item.Socios.Any())
+                    {
+                        @foreach (var socio in item.Socios)
+                        {
+                            <p>@socio.Nome @socio.Sobrenome</p>
+                        }
+                    }
+                    else
+                    {
+                        <p>Nenhum sócio</p>
+                    }
                 </td>
                 <td>
                     <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |

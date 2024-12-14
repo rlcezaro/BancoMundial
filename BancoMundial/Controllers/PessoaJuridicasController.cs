@@ -1,12 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using BancoMundial.Data;
 using BancoMundial.Models;
+using Microsoft.AspNetCore.Mvc.Rendering;
+using System.Linq;
 
 namespace BancoMundial.Controllers
 {
@@ -22,7 +20,10 @@ namespace BancoMundial.Controllers
         // GET: PessoaJuridicas
         public async Task<IActionResult> Index()
         {
-            return View(await _context.PessoasJuridicas.ToListAsync());
+            var pessoasJuridicas = await _context.PessoasJuridicas
+                .Include(p => p.Socios)
+                .ToListAsync();
+            return View(pessoasJuridicas);
         }
 
         // GET: PessoaJuridicas/Details/5
@@ -34,6 +35,7 @@ namespace BancoMundial.Controllers
             }
 
             var pessoaJuridica = await _context.PessoasJuridicas
+                .Include(p => p.Socios)
                 .FirstOrDefaultAsync(m => m.Id == id);
             if (pessoaJuridica == null)
             {
@@ -46,22 +48,24 @@ namespace BancoMundial.Controllers
         // GET: PessoaJuridicas/Create
         public IActionResult Create()
         {
+            ViewBag.Socios = _context.PessoasFisicas.ToList();
             return View();
         }
 
         // POST: PessoaJuridicas/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("CNPJ,RazaoSocial,NomeFantasia,InscricaoEstadual,DataAbertura,Faturamento,Idade,Id,Endereco,Telefone,Email")] PessoaJuridica pessoaJuridica)
+        public async Task<IActionResult> Create([Bind("CNPJ,RazaoSocial,NomeFantasia,InscricaoEstadual,DataAbertura,Faturamento,Id,Endereco,Telefone,Email")] PessoaJuridica pessoaJuridica, int[] sociosIds)
         {
             if (ModelState.IsValid)
             {
+                pessoaJuridica.Socios = _context.PessoasFisicas.Where(p => sociosIds.Contains(p.Id)).ToList();
+                pessoaJuridica.AtualizarIdade();
                 _context.Add(pessoaJuridica);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
+            ViewBag.Socios = _context.PessoasFisicas.ToList();
             return View(pessoaJuridica);
         }
 
@@ -73,20 +77,19 @@ namespace BancoMundial.Controllers
                 return NotFound();
             }
 
-            var pessoaJuridica = await _context.PessoasJuridicas.FindAsync(id);
+            var pessoaJuridica = await _context.PessoasJuridicas.Include(p => p.Socios).FirstOrDefaultAsync(p => p.Id == id);
             if (pessoaJuridica == null)
             {
                 return NotFound();
             }
+            ViewBag.Socios = _context.PessoasFisicas.ToList();
             return View(pessoaJuridica);
         }
 
         // POST: PessoaJuridicas/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("CNPJ,RazaoSocial,NomeFantasia,InscricaoEstadual,DataAbertura,Faturamento,Idade,Id,Endereco,Telefone,Email")] PessoaJuridica pessoaJuridica)
+        public async Task<IActionResult> Edit(int id, [Bind("CNPJ,RazaoSocial,NomeFantasia,InscricaoEstadual,DataAbertura,Faturamento,Id,Endereco,Telefone,Email")] PessoaJuridica pessoaJuridica, int[] sociosIds)
         {
             if (id != pessoaJuridica.Id)
             {
@@ -97,7 +100,25 @@ namespace BancoMundial.Controllers
             {
                 try
                 {
-                    _context.Update(pessoaJuridica);
+                    var existingPessoaJuridica = await _context.PessoasJuridicas.Include(p => p.Socios).FirstOrDefaultAsync(p => p.Id == id);
+                    if (existingPessoaJuridica == null)
+                    {
+                        return NotFound();
+                    }
+
+                    existingPessoaJuridica.CNPJ = pessoaJuridica.CNPJ;
+                    existingPessoaJuridica.RazaoSocial = pessoaJuridica.RazaoSocial;
+                    existingPessoaJuridica.NomeFantasia = pessoaJuridica.NomeFantasia;
+                    existingPessoaJuridica.InscricaoEstadual = pessoaJuridica.InscricaoEstadual;
+                    existingPessoaJuridica.DataAbertura = pessoaJuridica.DataAbertura;
+                    existingPessoaJuridica.Faturamento = pessoaJuridica.Faturamento;
+                    existingPessoaJuridica.Endereco = pessoaJuridica.Endereco;
+                    existingPessoaJuridica.Telefone = pessoaJuridica.Telefone;
+                    existingPessoaJuridica.Email = pessoaJuridica.Email;
+                    existingPessoaJuridica.Socios = _context.PessoasFisicas.Where(p => sociosIds.Contains(p.Id)).ToList();
+                    existingPessoaJuridica.AtualizarIdade();
+
+                    _context.Update(existingPessoaJuridica);
                     await _context.SaveChangesAsync();
                 }
                 catch (DbUpdateConcurrencyException)
@@ -111,8 +132,10 @@ namespace BancoMundial.Controllers
                         throw;
                     }
                 }
+                ViewBag.Socios = _context.PessoasFisicas.ToList();
                 return RedirectToAction(nameof(Index));
             }
+            ViewBag.Socios = _context.PessoasFisicas.ToList();
             return View(pessoaJuridica);
         }
 
@@ -125,6 +148,7 @@ namespace BancoMundial.Controllers
             }
 
             var pessoaJuridica = await _context.PessoasJuridicas
+                .Include(p => p.Socios)
                 .FirstOrDefaultAsync(m => m.Id == id);
             if (pessoaJuridica == null)
             {
@@ -152,6 +176,14 @@ namespace BancoMundial.Controllers
         private bool PessoaJuridicaExists(int id)
         {
             return _context.PessoasJuridicas.Any(e => e.Id == id);
+        }
+
+        // Método para calcular idade
+        [HttpGet]
+        public IActionResult CalcularIdade(DateTime dataAbertura)
+        {
+            var idade = Auxiliar.CalcularIdade(dataAbertura);
+            return Json(new { idade });
         }
     }
 }

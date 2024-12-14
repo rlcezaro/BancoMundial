@@ -8,7 +8,7 @@
         public string NomeFantasia { get; set; }
         public string InscricaoEstadual { get; set; }
         public DateTime DataAbertura { get; set; }
-        public decimal Faturamento { get; private set; }
+        public decimal Faturamento { get; set; } // Removido o private set;
         public int Idade { get; private set; }
 
         public void AtualizarIdade()
