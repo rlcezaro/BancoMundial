@@ -1,8 +1,67 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Painel de Gerenciamento";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome to BancoMundial</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<h1 class="text-center">Painel de Gerenciamento</h1>
+<hr />
+<div class="container">
+    <h2 class="text-center">Clientes</h2>
+    <div class="row justify-content-center">
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h5 class="card-title">Pessoa Física</h5>
+                    <p class="card-text">Gerencie o cadastro de pessoas físicas.</p>
+                    <a href="@Url.Action("Create", "PessoaFisicas")" class="btn btn-primary mb-2">Cadastrar Pessoa Física</a>
+                    <a href="@Url.Action("Index", "PessoaFisicas")" class="btn btn-secondary">Listar Pessoas Físicas</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h5 class="card-title">Pessoa Jurídica</h5>
+                    <p class="card-text">Gerencie o cadastro de pessoas jurídicas.</p>
+                    <a href="@Url.Action("Create", "PessoaJuridicas")" class="btn btn-primary mb-2">Cadastrar Pessoa Jurídica</a>
+                    <a href="@Url.Action("Index", "PessoaJuridicas")" class="btn btn-secondary">Listar Pessoas Jurídicas</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <hr />
+
+    <h2 class="text-center">Contas Bancárias</h2>
+    <div class="row justify-content-center">
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h5 class="card-title">Contas Correntes</h5>
+                    <p class="card-text">Gerencie o cadastro de contas correntes.</p>
+                    <a href="@Url.Action("Create", "ContaCorrentes")" class="btn btn-primary mb-2">Cadastrar Conta Corrente</a>
+                    <a href="@Url.Action("Index", "ContaCorrentes")" class="btn btn-secondary">Listar Contas Correntes</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h5 class="card-title">Contas Salário</h5>
+                    <p class="card-text">Gerencie o cadastro de contas salário.</p>
+                    <a href="@Url.Action("Create", "ContaSalarios")" class="btn btn-primary mb-2">Cadastrar Conta Salário</a>
+                    <a href="@Url.Action("Index", "ContaSalarios")" class="btn btn-secondary">Listar Contas Salário</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h5 class="card-title">Contas Poupança</h5>
+                    <p class="card-text">Gerencie o cadastro de contas poupança.</p>
+                    <a href="@Url.Action("Create", "ContaPoupancas")" class="btn btn-primary mb-2">Cadastrar Conta Poupança</a>
+                    <a href="@Url.Action("Index", "ContaPoupancas")" class="btn btn-secondary">Listar Contas Poupança</a>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
